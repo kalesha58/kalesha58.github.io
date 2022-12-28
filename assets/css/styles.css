@@ -11,9 +11,9 @@
 :root {
   --first-color: #4070f4;
   --second-color: #0e2431;
-  --color-primary:#4db5ff;
-  --color-white:#fff;
-  --color-bg:#1f1f38;
+  --color-primary: #4db5ff;
+  --color-white: #fff;
+  --color-bg: #1f1f38;
   --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
 }
 
@@ -111,14 +111,13 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background:#fff;
+  background: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
-
-.image_style{
- width: 100px;
- border-radius: 50%;
+.image_style {
+  width: 100px;
+  border-radius: 50%;
 }
 /* Navbar */
 .nav {
@@ -129,17 +128,17 @@ img {
   font-weight: var(--font-semi);
   /* background-color: black; */
 }
-#github{ 
+#github {
   margin: auto;
   display: block;
 }
-#github p img{
+#github p img {
   margin: auto;
 }
-.calendar{
+.calendar {
   text-align: center;
 }
-.tech{
+.tech {
   text-align: start;
 }
 @media screen and (max-width: 768px) {
@@ -152,9 +151,26 @@ img {
     padding: 2rem;
     background-color: var(--second-color);
     transition: 0.5s;
- 
+  }
+
+  .work_img {
+    width: 125%;
+  }
+  .footer{
+    
+    width: 125%;
+  }
+  #github{
+   
+  
+    width: 125%;
+  }
+  .about_container{
+  
+    width:120%
   }
 }
+
 
 .nav_items {
   margin-bottom: var(--mb-4);
@@ -260,7 +276,7 @@ img {
 }
 .button1 {
   display: inline-block;
-  color:black;
+  color: black;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
@@ -268,12 +284,12 @@ img {
   border: none;
   margin-left: 2%;
 }
-.button1>a{
-color:#fff;
+.button1 > a {
+  color: #fff;
 }
-.button2{
+.button2 {
   display: inline-block;
-  color:black;
+  color: black;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
@@ -281,8 +297,8 @@ color:#fff;
   border: none;
   width: 50%;
 }
-.button2>a{
-color:#fff;
+.button2 > a {
+  color: #fff;
 }
 .button2:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
@@ -342,9 +358,7 @@ color:#fff;
 }
 .about__me {
   width: 100%;
-  
-  
-  
+
   aspect-ratio: 1/1;
   border-radius: 2rem;
   /* background: linear-gradient(
@@ -367,10 +381,10 @@ color:#fff;
 } */
 
 /* SKILLS */
-.skills_container {
+/* .skills_container {
   row-gap: 2rem;
   text-align: center;
-}
+} */
 
 .skills_subtitle {
   margin-bottom: var(--mb-2);
@@ -428,6 +442,57 @@ color:#fff;
 .skill_ui {
   width: 85%;
 }
+/*                        ========================SKILLS */
+
+.skills__container {
+  row-gap: 2rem;
+  padding-left: 28%;
+  width: 130%;
+}
+
+.skills__subtitle {
+  color: var(--first-color);
+  margin-bottom: var(--mb-3);
+}
+.skills__name {
+  display: inline-block;
+  width: 10%;
+  font-size: var(--small-font-size);
+  margin-right: var(--mb-2);
+  margin-bottom: var(--mb-3);
+  padding: 0.25rem 0.5rem;
+  background-color: var(--white-color);
+  border-radius: 0.25rem;
+}
+.skills__name:hover {
+  /* background-color: var(--first-color); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--white-color);
+}
+.skills__img img {
+  border-radius: 0.5rem;
+}
+.about__buttons {
+  margin-top: 20px;
+}
+.btn {
+  padding: 0.8rem 2.2rem;
+  font: normal 500 16px/20px var(--roboto);
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  background-clip: padding-box;
+  color: rgb(250, 241, 241);
+  transition: background 0.5s ease;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+.btn:hover {
+  /* background-color: rgb(47, 191, 239); */
+  background: rgb(30, 121, 182);
+  background-clip: padding-box;
+  color: rgb(249, 243, 243);
+}
 
 /* WORK */
 
@@ -453,22 +518,20 @@ color:#fff;
 .work_img img:hover {
   transform: scale(1.1);
 }
-.tech_stack{
-  
+.tech_stack {
   display: flex;
   width: 95%;
   margin-top: 5px;
   margin-bottom: 10px;
   gap: 4px;
-  
 }
-.tech_stack>img{
+.tech_stack > img {
   width: 40px;
   border-radius: 7px;
 }
-.desc_div{
+.desc_div {
   text-align: left;
-  padding: 0px 15px ;
+  padding: 0px 15px;
 }
 /* .btn{
   width:max-content;
@@ -542,6 +605,7 @@ color:#fff;
   color: #fff;
   margin: 0 var(--mb-2);
 }
+
 
 @media screen and (min-width: 768px) {
   body {
@@ -632,7 +696,11 @@ color:#fff;
     width: 400px;
   }
   .contact_container {
+    display: flex;
     justify-items: center;
+  }
+  .contact__info{
+    margin-right: 20%;
   }
 }
 

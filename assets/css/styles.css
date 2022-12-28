@@ -156,21 +156,16 @@ img {
   .work_img {
     width: 125%;
   }
-  .footer{
-    
+  .footer {
     width: 125%;
   }
-  #github{
-   
-  
+  #github {
     width: 125%;
   }
-  .about_container{
-  
-    width:120%
+  .about_container {
+    width: 120%;
   }
 }
-
 
 .nav_items {
   margin-bottom: var(--mb-4);
@@ -606,7 +601,6 @@ img {
   margin: 0 var(--mb-2);
 }
 
-
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -699,7 +693,7 @@ img {
     display: flex;
     justify-items: center;
   }
-  .contact__info{
+  .contact__info {
     margin-right: 20%;
   }
 }

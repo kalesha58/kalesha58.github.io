@@ -24,7 +24,9 @@ const Navigation = {
         // Add active class to matching page and nav link
         for (let j = 0; j < pages.length; j++) {
           const pageName = pages[j].dataset.page;
-          if (clickedLinkText === pageName) {
+          // Normalize both strings: replace spaces with hyphens for comparison
+          const normalizedLinkText = clickedLinkText.replace(/\s+/g, '-');
+          if (normalizedLinkText === pageName) {
             pages[j].classList.add("active");
             navigationLinks[i].classList.add("active");
             window.scrollTo(0, 0);

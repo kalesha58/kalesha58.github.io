@@ -1,0 +1,22 @@
+{
+  "name": "kalesha58.github.io",
+  "version": "1.0.0",
+  "description": "A fully responsive, modern personal portfolio website showcasing my work as a Software Engineer specializing in mobile and web development. Built with HTML, CSS, and JavaScript, featuring dark/light theme support, GitHub analytics integration, and a functional contact form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http": "npx http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalesha58/kalesha58.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kalesha58/kalesha58.github.io/issues"
+  },
+  "homepage": "https://github.com/kalesha58/kalesha58.github.io#readme"
+}

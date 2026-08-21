@@ -1624,9 +1624,57 @@ main {
   color: var(--white-1) !important;
 }
 
+.tag-postgres:hover {
+  background: #336791 !important;
+  border-color: #336791 !important;
+  color: var(--white-1) !important;
+}
+
 .tag-supabase:hover {
   background: #3ecf8e !important;
   border-color: #3ecf8e !important;
+}
+
+.tag-ios:hover {
+  background: #007aff !important;
+  border-color: #007aff !important;
+  color: var(--white-1) !important;
+}
+
+.tag-android:hover {
+  background: #3ddc84 !important;
+  border-color: #3ddc84 !important;
+  color: var(--smoky-black) !important;
+}
+
+.tag-mdm:hover {
+  background: #4285f4 !important;
+  border-color: #4285f4 !important;
+  color: var(--white-1) !important;
+}
+
+.tag-s3:hover {
+  background: #ff9900 !important;
+  border-color: #ff9900 !important;
+  color: var(--smoky-black) !important;
+}
+
+.tag-cloudinary:hover {
+  background: #3448c5 !important;
+  border-color: #3448c5 !important;
+  color: var(--white-1) !important;
+}
+
+.tag-firebase:hover {
+  background: #ffca28 !important;
+  border-color: #ffca28 !important;
+  color: var(--smoky-black) !important;
+}
+
+.tag-rag:hover, .tag-llm:hover {
+  background: #8b5cf6 !important;
+  border-color: #8b5cf6 !important;
+  color: var(--white-1) !important;
 }
 
 .tag-claude:hover {
@@ -1640,9 +1688,16 @@ main {
   border-color: #00cfc1 !important;
 }
 
+.tag-openai:hover {
+  background: #10a37f !important;
+  border-color: #10a37f !important;
+  color: var(--white-1) !important;
+}
+
 .tag-agents:hover, .tag-chatbots:hover, .tag-voice:hover, .tag-openclaw:hover, .tag-extraction:hover {
   background: var(--orange-yellow-crayola) !important;
   border-color: var(--orange-yellow-crayola) !important;
+  color: var(--smoky-black) !important;
 }
 
 .tag-jira:hover {
@@ -1662,9 +1717,27 @@ main {
   color: var(--white-1) !important;
 }
 
-.tag-sso:hover {
+.tag-datadog:hover {
+  background: #632ca6 !important;
+  border-color: #632ca6 !important;
+  color: var(--white-1) !important;
+}
+
+.tag-newrelic:hover {
+  background: #008c99 !important;
+  border-color: #008c99 !important;
+  color: var(--white-1) !important;
+}
+
+.tag-sso:hover, .tag-keycloak:hover {
   background: #007dc1 !important;
   border-color: #007dc1 !important;
+  color: var(--white-1) !important;
+}
+
+.tag-vercel:hover {
+  background: #000000 !important;
+  border-color: #ffffff !important;
   color: var(--white-1) !important;
 }
 
